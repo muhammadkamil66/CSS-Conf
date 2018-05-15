@@ -1,5 +1,6 @@
 body{
 	margin: 0;
+	font-family: 'Roboto', sans-serif;
 }
 header{
 	background-color: white;
@@ -32,7 +33,7 @@ header{
 	font-size:  20px ;
 }
 .nav-bar li:hover{
-	color: lightblue;
+	color: #629fff;
 	cursor: pointer;
 }
 button{
@@ -48,7 +49,7 @@ button{
 
 }
 button:hover{
-	color: lightblue;
+	color: #629fff;
 	cursor: pointer;
 }
 article{
@@ -64,7 +65,7 @@ article{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    width: 90%;
     margin: 0px auto;
 
 
@@ -78,8 +79,8 @@ article div:hover{
 article div{
 	color: white;
 	cursor: pointer;
-	width: 250px;
-	height: 120px;
+	width: 300px;
+	height: 140px;
 	padding: 10px;
 	margin: 10px;
 	align-items: center;
@@ -134,16 +135,16 @@ div h1, p{
 	padding: 0px;
 }
 div h1:first-child{
-	font-size: 30px;
+	font-size: 35px;
 	margin-top: 30px;
 }
 div h1{
-	font-size: 30px;
+	font-size: 35px;
 
 }
 footer{
 	background-color: #21303b;
-	height: 100px;
+	height: 150px;
 	margin-top: 30px;
 }
 footer{
@@ -155,15 +156,16 @@ footer{
 }
 footer .nav-bar-1 li{
 	display: inline-block;
-	margin: 0 20px ;
-	margin-bottom: 10px;
+	margin: 0 30px ;
+	margin-top: 35px;
+	margin-bottom: 15px;
 
 
 
 }
 footer .nav-bar-2 li{
 	display: inline-block;
-	margin: 0 20px ;
+	margin: 0 30px ;
 }
 footer ul li:hover{
 	color: #fde093;

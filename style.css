@@ -171,3 +171,8 @@ footer .nav-bar-2 li{
 footer ul li:hover{
 	color: #fde093;
 }
+@media screen and(max-width:520px){
+	.nav-bar li:hover{
+		display:none:
+	}
+}

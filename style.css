@@ -36,17 +36,27 @@ header{
 	color: #629fff;
 	cursor: pointer;
 }
-button{
-	-webkit-box-shadow: 5px 5px 5px 0px rgba(3,236,69,1);
+.btn-1{
+	/*-webkit-box-shadow: 5px 5px 5px 0px rgba(3,236,69,1);
 	-moz-box-shadow: 5px 5px 5px 0px rgba(3,236,69,1);
-	box-shadow: 5px 5px 5px 0px rgba(3,236,69,1);
+	box-shadow: 5px 5px 5px 0px rgba(3,236,69,1);*/
 	border:2px solid #3ec446;
 	color: #544ebf;
 	padding: 8px 15px;
 	background-color: white;
 	margin-right: 20px;
 	font-size:  17px ;
+	position: relative;
 
+
+}
+.btn-2{
+	border: 2px solid #3ec446;
+    padding: 18px 72px;
+    position: absolute;
+    top: 2px;
+    right: -7px;
+    z-index: -1;
 }
 button:hover{
 	color: #629fff;
@@ -172,7 +182,7 @@ footer ul li:hover{
 	color: #fde093;
 }
 
-@media screen and (max-width: 530px){
+@media screen and (max-width: 630px){
 	.nav-bar li{
 		display: none;
 	}
